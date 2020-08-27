@@ -1,0 +1,144 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 200%;
+}
+
+.button0{
+    min-height: 5vh;
+    min-width: 10vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: white;
+    border: 2px dotted transparent;
+    border-radius: 1.15vh;
+    background-color: royalblue;
+    outline: none;
+    font-size: 2vh;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-right: 2vw;
+    margin-top: 1vh;
+    transition: background-color 0.2s;
+    font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
+}
+
+.button0:hover{
+    background-color: white;
+    border: 2px solid royalblue;
+    color: royalblue;
+    transition: background-color 0.2s;
+}
+
+.button1{
+    min-height: 5vh;
+    min-width: 10vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: royalblue;
+    border: 2px solid transparent;
+    border-radius: 1.15vh;
+    background-color: white;
+    outline: none;
+    font-size: 2vh;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-right: 2vw;
+    margin-top: 1vh;
+    transition: border 0.2s;
+    font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
+}
+
+.button1:hover{
+    border: 2px solid royalblue;
+    transition: border 0.2s;
+}
+
+.button0:active, .button1:active{
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid transparent;
+}
+
+
+#header{
+    height: 8vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    transition: background-color 0.5s;
+}
+
+#headerLogo{
+    height: 100%;
+    margin-left: 2vw;
+    float: left;
+    padding: 0.5vw;
+    line-height: 100%;
+}
+
+#headerLogo img{
+    height: calc(100% - 1vw);
+}
+
+#headerPages{
+    float: right;
+    margin-right: 2vw;
+    line-height: 100%;
+}
+
+#headerPages a{
+    height: auto;
+    color: white;
+    float: left;
+    padding: 0.5vw;
+    line-height: 100%;
+    vertical-align: middle;
+    cursor: default;
+    transition: color 0.3s;
+}
+
+#headerPages a:hover{
+    color: rgb(71, 151, 255);
+}
+
+#headerPages td{
+    padding-right: 2vw;
+}
+
+#block0{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/img/Hover\ Icons.png'), url('/img/Block0BG.png');
+    background-position: center;
+    background-size: cover;
+    font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
+    color: white;
+}
+
+#block0 i{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+    font-family: 'Alata';
+    src: url('/fnt/alata-regular.woff2') format('woff2'),
+         url('/fnt/alata-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
