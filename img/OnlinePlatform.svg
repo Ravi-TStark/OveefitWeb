@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="422.517" height="381.265" viewBox="0 0 422.517 381.265">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: rgba(255,255,255,0.3);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_18" data-name="Group 18" transform="translate(-453 -2649)">
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-1" width="413" height="288" rx="42" transform="translate(458 2654)"/>
+    <path id="Icon_ionic-md-person" data-name="Icon ionic-md-person" d="M106.73,106.73A51.115,51.115,0,1,0,55.615,55.615,51.264,51.264,0,0,0,106.73,106.73Zm0,25.557C72.867,132.287,4.5,149.539,4.5,183.4v25.557H208.959V183.4C208.959,149.539,140.592,132.287,106.73,132.287Z" transform="translate(473.969 2732.903)"/>
+    <g id="Icon_feather-monitor" data-name="Icon feather-monitor" transform="translate(455 2649.5)">
+      <path id="Path_45" data-name="Path 45" class="cls-2" d="M44.252,4.5H374.265a41.252,41.252,0,0,1,41.252,41.252V252.01a41.252,41.252,0,0,1-41.252,41.252H44.252A41.252,41.252,0,0,1,3,252.01V45.752A41.252,41.252,0,0,1,44.252,4.5Z" transform="translate(0 0)"/>
+      <path id="Path_46" data-name="Path 46" class="cls-2" d="M12,31.5H177.007" transform="translate(114.755 344.265)"/>
+      <path id="Path_47" data-name="Path 47" class="cls-2" d="M18,25.5V108" transform="translate(191.258 267.762)"/>
+    </g>
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-3" width="169" height="104" rx="10" transform="translate(674 2685)"/>
+    <path id="Icon_awesome-dumbbell" data-name="Icon awesome-dumbbell" d="M12.38,9.868H6.666a2.85,2.85,0,0,0-2.857,2.857V25.1H.952A.955.955,0,0,0,0,26.057v5.714a.955.955,0,0,0,.952.952H3.809V45.1A2.85,2.85,0,0,0,6.666,47.96H12.38A2.85,2.85,0,0,0,15.237,45.1V12.725A2.85,2.85,0,0,0,12.38,9.868ZM75.231,25.1H72.374V12.725a2.85,2.85,0,0,0-2.857-2.857H63.8a2.85,2.85,0,0,0-2.857,2.857V45.1A2.85,2.85,0,0,0,63.8,47.96h5.714A2.85,2.85,0,0,0,72.374,45.1V32.723h2.857a.955.955,0,0,0,.952-.952V26.057A.955.955,0,0,0,75.231,25.1ZM54.28,2.25H48.567A2.85,2.85,0,0,0,45.71,5.107v20H30.473v-20A2.85,2.85,0,0,0,27.616,2.25H21.9a2.85,2.85,0,0,0-2.857,2.857V52.721A2.85,2.85,0,0,0,21.9,55.578h5.714a2.85,2.85,0,0,0,2.857-2.857v-20H45.71v20a2.85,2.85,0,0,0,2.857,2.857H54.28a2.85,2.85,0,0,0,2.857-2.857V5.107A2.85,2.85,0,0,0,54.28,2.25Z" transform="translate(720.809 2708.086)"/>
+    <path id="Icon_metro-bubble" data-name="Icon metro-bubble" class="cls-4" d="M25.49,3.856c12.658,0,22.919,8.337,22.919,18.622S38.148,41.1,25.49,41.1a28.306,28.306,0,0,1-3.573-.226C16.994,45.8,11.117,46.68,5.436,46.81v-1.2c3.068-1.5,5.73-4.241,5.73-7.37a8.645,8.645,0,0,0-.1-1.285c-5.184-3.414-8.5-8.629-8.5-14.473,0-10.285,10.261-18.622,22.919-18.622Z" transform="translate(591.898 2785.276)"/>
+    <path id="Icon_awesome-ellipsis-h" data-name="Icon awesome-ellipsis-h" class="cls-5" d="M16.129,16.44a3.5,3.5,0,1,1-3.5-3.5A3.5,3.5,0,0,1,16.129,16.44Zm5.059-3.5a3.5,3.5,0,1,0,3.5,3.5A3.5,3.5,0,0,0,21.188,12.938Zm-17.123,0a3.5,3.5,0,1,0,3.5,3.5A3.5,3.5,0,0,0,4.065,12.938Z" transform="translate(604.816 2792.169)"/>
+  </g>
+</svg>

@@ -17,8 +17,10 @@ body {
 }
 
 .sector {
-    width: 100vw;
-    scroll-snap-align: start;
+    width: 100%;
+    scroll-snap-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 #desktopContainer {
@@ -90,6 +92,7 @@ body {
 
 #header {
     height: 8vh;
+    min-width: 100%;
     background-color: transparent;
     position: fixed;
     top: 0;
@@ -127,6 +130,7 @@ body {
     cursor: default;
     transition: color 0.3s;
     font-size: 2vh;
+    text-decoration: none;
 }
 
 #headerPages a:hover {
@@ -135,13 +139,13 @@ body {
 }
 
 #headerPages td {
-    padding-right: 2vw;
+    padding-left: 2vw;
 }
 
 #block0 {
     height: 100vh;
     width: 100%;
-    background-image: url('/img/Hover\ Icons.png'), url('/img/Block0BG.png');
+    background-image: url('../img/Hover\ Icons.png'), url('../img/Block0BG.png');
     background-position: center;
     background-size: cover;
     font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
@@ -156,7 +160,7 @@ body {
 #block1 {
     height: 100vh;
     width: 100%;
-    background: url('/img/Block1BG.png'), rgb(0, 98, 167);
+    background: url('../img/Block1BG.png'), rgb(0, 98, 167);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 55% 100%;
@@ -177,6 +181,20 @@ body {
 #block2 {
     height: 100vh;
     width: 100%;
+    background: rgb(133, 184, 251);
+    font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
+    color: white;
+}
+
+#block2Content {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#block3 {
+    height: 100vh;
+    width: 100%;
     background: rgb(20, 20, 20);
     background-position: left;
     background-repeat: no-repeat;
@@ -187,6 +205,7 @@ body {
 
 #footer {
     min-height: 10vh;
+    min-width: 100%;
     background-color: rgb(70, 70, 70);
 }
 
@@ -202,7 +221,7 @@ body {
 
 @font-face {
     font-family: 'Alata';
-    src: url('/fnt/alata-regular.woff2') format('woff2'), url('/fnt/alata-regular.woff') format('woff');
+    src: url('../fnt/alata-regular.woff2') format('woff2'), url('../fnt/alata-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
