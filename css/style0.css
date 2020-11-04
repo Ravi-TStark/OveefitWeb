@@ -14,6 +14,7 @@ html {
 
 body {
     overflow: scroll;
+    background: rgb(20, 20, 20);
 }
 
 .sector {
@@ -45,7 +46,7 @@ body {
     background-color: royalblue;
     outline: none;
     font-size: 2vh;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(65, 105, 255, 0.5);
     margin-right: 2vw;
     margin-top: 1vh;
     transition: background-color 0.2s;
@@ -72,7 +73,7 @@ body {
     background-color: white;
     outline: none;
     font-size: 2vh;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
     margin-right: 2vw;
     margin-top: 1vh;
     transition: border 0.2s;
@@ -123,6 +124,7 @@ body {
 #headerPages a {
     height: auto;
     color: white;
+    text-shadow: 0px 0px 1px rgb(3, 32, 73);
     float: left;
     padding: 0.5vw;
     line-height: 100%;
@@ -145,7 +147,7 @@ body {
 #block0 {
     height: 100vh;
     width: 100%;
-    background-image: url('../img/Hover\ Icons.png'), url('../img/Block0BG.png');
+    /*background-image: url('../img/Hover\ Icons.png'), url('../img/Block0BG.png');*/
     background-position: center;
     background-size: cover;
     font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
@@ -160,12 +162,12 @@ body {
 #block1 {
     height: 100vh;
     width: 100%;
-    background: url('../img/Block1BG.png'), rgb(52, 170, 255);
+    /*background: url('../img/Block1BG.png'), rgb(255, 254, 201);*/
     background-position: left;
     background-repeat: no-repeat;
     background-size: 55% 100%;
     font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
-    color: white;
+    color: rgb(121, 54, 0);
 }
 
 #block1Content {
@@ -175,13 +177,13 @@ body {
 }
 
 #block1Content i {
-    color: white;
+    color: rgb(121, 54, 0);
 }
 
 #block2 {
     height: 100vh;
     width: 100%;
-    background: rgb(133, 184, 251);
+    /*background: rgb(133, 184, 251);*/
     font-family: "Alata", 'Segoe UI', 'Helvetica Neue';
     color: white;
 }
@@ -195,7 +197,6 @@ body {
 #block3 {
     height: 100vh;
     width: 100%;
-    background: rgb(20, 20, 20);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 55% 100%;

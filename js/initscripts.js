@@ -3,25 +3,11 @@ window.addEventListener('scroll', function(e) {
     if (x % window.innerHeight < 100 && x % window.innerHeight > -100) {
         document.getElementById('header').style.backgroundColor = 'transparent';
     } else if ((x >= window.innerHeight - 500) && (x < 2 * window.innerHeight)) {
-        document.getElementById('header').style.backgroundColor = 'rgba(0, 93,167 ,0.6)';
+        document.getElementById('header').style.backgroundColor = 'rgba(50, 50, 50, 0.6)';
     } else if ((x >= 2 * window.innerHeight - 500) && x < (3 * window.innerHeight)) {
-        document.getElementById('header').style.backgroundColor = 'rgba(0, 93,167 ,0.6)';
+        document.getElementById('header').style.backgroundColor = 'rgba(50, 50, 50, 0.6)';
     } else {
         document.getElementById('header').style.backgroundColor = 'transparent';
-    }
-
-    if (isInViewport(document.getElementById('block2'))) {
-        console.log('true');
-        var lst = document.getElementById('headerPages').getElementsByTagName('a');
-        console.log(lst);
-        for (var i = 0; i < lst.length; i++) {
-            lst[i].style.color = 'rgb(3, 32, 73)';
-        }
-    } else {
-        var lst = document.getElementById('headerPages').getElementsByTagName('a');
-        for (var i = 0; i < lst.length; i++) {
-            lst[i].style.color = 'rgb(255, 255, 255)';
-        }
     }
 }, true);
 
